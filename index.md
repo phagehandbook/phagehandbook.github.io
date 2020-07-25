@@ -1,7 +1,6 @@
 ---
-layout: default 
-title: Home
-permalink: /home
+layout: index 
+title: Phage Handbook
 ---
 
 hi!
