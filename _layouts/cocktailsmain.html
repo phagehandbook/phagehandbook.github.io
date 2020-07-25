@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="/_site/assets/main.css" />
+    <title>Blog - {{ site.title }}</title>
+  </head>
+  <body>
+    {% include navbar.html %} 
+    <section id="blog-featured" class="my-5">
+      <div class="container">
+        <a href="{{ post.url }}">
+          <div class="row bg-tertiary">
+            <div class="col-md-6 text-center align-self-center">
+              <div class="container my-auto">
+                <p>Recent cocktails</p>
+                <p class="lead font-weight-bold">
+                  {{ post.title }}
+                </p>
+                <p>
+                  {{ post.excerpt }}
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 m-0 p-0">
+              <img
+                src="{{ post.featured_image }}"
+                alt="{{ post.featured_image_alt }}"
+                class="img-fluid"
+              />
+              <div class="overlay"></div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section id="phage main">
+      <div class="container px-0">
+        <div class="row">
+          {% for post in site.posts offset:1 %}
+          <div class="col-sm-4">
+            <div class="card border-white w-100">
+              <a href="{{ post.url }}">
+                <img
+                  src="{{ post.featured_image }}"
+                  alt="{{ post.featured_image_alt }}"
+                  class="card-img-top"
+                />
+                <div class="overlay"></div>
+                <div class="card-body">
+                  <h5 class="card-title">{{ post.title }}</h5>
+                  <p class="card-text">
+                    {{ post.excerpt | truncate: 150 }}
+                  </p>
+                </div>
+              </a>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
