@@ -1,4 +1,4 @@
 ---
 layout: about 
-page.title: About
+title: About
 ---
