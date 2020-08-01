@@ -6,3 +6,5 @@ _data/navbar.yml
   link: /about
 - name: Phages
   link: /phages  
+- name: Cocktails
+  link: /cocktails
