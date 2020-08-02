@@ -1,5 +1,5 @@
 ---
 layout: phages-main.html
 title: Phages
-permalink: /phage
+permalink: /phages/
 ---
