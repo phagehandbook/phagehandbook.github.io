@@ -1,5 +1,5 @@
 ---
-layout: phages
+layout: page
 title: Phages
 permalink: /phages
 ---
