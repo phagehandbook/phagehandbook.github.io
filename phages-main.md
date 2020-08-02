@@ -1,5 +1,5 @@
 ---
 layout: page
 title: Phages
-permalink: /phages/
+permalink: /phages
 ---
