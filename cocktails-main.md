@@ -1,5 +1,5 @@
 ---
-layout: cocktails-main.html
+layout: cocktails-main
 title: Cocktails 
 permalink: /cocktails
 ---
