@@ -30,7 +30,7 @@ github_username:  jekyll
 permalink: /:categories/:title/
 
 #Collections
-collection: 
+collections: 
   phages:
     output: true 
   cocktails: 
