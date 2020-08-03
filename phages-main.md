@@ -1,5 +1,5 @@
 ---
-layout: phages-main.html
-title: Phages
+layout: page
+title: Bacteriophage
 permalink: /phages
 ---
