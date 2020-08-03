@@ -28,6 +28,16 @@ url: "https://phagehandbook.github.io/" # the base hostname & protocol for your 
 twitter_username: jekyllrb
 github_username:  jekyll
 permalink: /:categories/:title/
+
+#Collections
+collection: 
+  phages:
+    output: true 
+  cocktails: 
+    output: true 
+  methodology: 
+    output: true 
+    permalink: /:collection/:title 
 ---
 {{title}}
 
