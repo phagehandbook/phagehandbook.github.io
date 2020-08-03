@@ -2,6 +2,6 @@
 layout: post
 title: first post 
 category: phages 
-slug: /first-post
+permalink: https://phagehandbook.github.io/phages/first-post.html
 ---
 hi
